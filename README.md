@@ -1,12 +1,13 @@
 # Northbound — Trip Report
 
-A polished, responsive, fictional trip-report website created for an HTML/CSS/JavaScript academic final project.
+A polished, responsive trip-report website for an HTML/CSS/JavaScript academic project, featuring an editorial field journal and a traditional structured report.
 
 ## What is included
 
 - Editorial-style responsive layout
 - Smooth scrolling and scroll-reveal animation
 - Mobile navigation
+- Traditional report with purpose, itinerary, observations, estimated expenses, and recommendations
 - Interactive destination field notes
 - Journal category filters
 - Photo gallery + lightbox
@@ -30,6 +31,6 @@ The simplest option is GitHub Pages. In the repository, open **Settings → Page
 
 The website is intentionally static, so visitors do not need VS Code, Node.js, XAMPP, or any other software. They only need the published URL and a modern browser.
 
-## Academic note
+## Report sections
 
-The trip, dates, observations and budget are fictional and were written specifically for this project. Replace the placeholder content and image URLs with your group's own material if your instructor requires original documentation.
+The site presents the trip in two complementary formats: an editorial field journal and a traditional trip report with objectives, itinerary, observations, estimated expenses, and recommendations. The report content and budget can be edited directly in `index.html`.
