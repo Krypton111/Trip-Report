@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Northbound — a fictional five-day cultural trip report through Northern Luzon, Philippines.">
+  <title>Northbound — Trip Report</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Northbound home"><span class="brand-mark">N</span><span>NORTHBOUND</span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#story">Story</a><a href="#route">Route</a><a href="#journal">Journal</a><a href="#cost">Cost</a>
+    </nav>
+    <button class="menu-btn" aria-label="Toggle menu"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="dot"></span> FIELD REPORT / 05 DAYS / NORTHERN LUZON</p>
+        <h1>Go where the<br><em>road</em> gets quiet.</h1>
+        <p class="hero-lede">A fictional five-day cultural expedition across Vigan, Sagada, Banaue and Baguio — written as a student trip report, designed like a field journal.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#route">Trace the route <span>↓</span></a><a class="text-link" href="#journal">Read the field notes ↗</a></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1400&q=85" alt="Mountain landscape viewed from a high trail" loading="eager">
+          <div class="image-stamp"><span>16° 56′ N</span><span>121° 10′ E</span></div>
+        </div>
+        <div class="hero-caption"><span>01 — THE NORTH</span><span>October 14–18, 2026</span></div>
+      </div>
+      <div class="scroll-cue"><span>Scroll to travel</span><i></i></div>
+    </section>
+
+    <section class="intro section-pad" id="story">
+      <div class="section-kicker reveal"><span>01</span><span>THE BRIEF</span></div>
+      <div class="intro-grid">
+        <div class="reveal"><h2>Five days.<br><em>Four places.</em><br>One slower pace.</h2></div>
+        <div class="intro-text reveal"><p class="large">Northbound documents a fictional group journey through Northern Luzon, following a simple idea: the best part of a trip is often what happens between destinations.</p><p>We built this report around observation rather than a checklist. Each stop became a small study of architecture, food, landscape and the people who give a place its character.</p><div class="stats"><div><strong>5</strong><span>DAYS ON ROAD</span></div><div><strong>4</strong><span>DESTINATIONS</span></div><div><strong>31</strong><span>FIELD NOTES</span></div></div></div>
+      </div>
+    </section>
+
+    <section class="route-section section-pad" id="route">
+      <div class="section-heading reveal"><div><span class="eyebrow">02 / THE ROUTE</span><h2>Follow the line north.</h2></div><p>Four stops connected by winding roads, early alarms and a healthy amount of coffee.</p></div>
+      <div class="route-line" aria-hidden="true"><span class="route-progress"></span></div>
+      <div class="route-grid">
+        <article class="place-card reveal active" data-place="vigan"><div class="place-number">01</div><div class="place-photo"><img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=900&q=80" alt="Historic street architecture" loading="lazy"><span>DAY 01</span></div><div class="place-body"><p class="place-tag">ILOCOS SUR</p><h3>Vigan</h3><p>Old streets, warm stone and the first reminder that history can feel lived-in.</p><button class="read-place" data-place="vigan">Open field note ↗</button></div></article>
+        <article class="place-card reveal" data-place="sagada"><div class="place-number">02</div><div class="place-photo"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80" alt="Mountain valley under morning light" loading="lazy"><span>DAY 02</span></div><div class="place-body"><p class="place-tag">MOUNTAIN PROVINCE</p><h3>Sagada</h3><p>Cool air, pine trails and a morning where the clouds sat below us.</p><button class="read-place" data-place="sagada">Open field note ↗</button></div></article>
+        <article class="place-card reveal" data-place="banaue"><div class="place-number">03</div><div class="place-photo"><img src="https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=900&q=80" alt="Terraced mountain landscape" loading="lazy"><span>DAY 03</span></div><div class="place-body"><p class="place-tag">IFUGAO</p><h3>Banaue</h3><p>Terraces that make the scale of human patience visible from a ridge.</p><button class="read-place" data-place="banaue">Open field note ↗</button></div></article>
+        <article class="place-card reveal" data-place="baguio"><div class="place-number">04</div><div class="place-photo"><img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=900&q=80" alt="City street with trees and buildings" loading="lazy"><span>DAY 04–05</span></div><div class="place-body"><p class="place-tag">BENGUET</p><h3>Baguio</h3><p>Art, markets and the final evening spent collecting everything we almost forgot.</p><button class="read-place" data-place="baguio">Open field note ↗</button></div></article>
+      </div>
+    </section>
+
+    <section class="feature section-pad">
+      <div class="feature-image reveal"><img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=1600&q=85" alt="Lush green mountain ridge" loading="lazy"><span class="vertical-label">NORTHBOUND / FIELD 04</span></div>
+      <div class="feature-copy reveal"><span class="eyebrow">THE MOMENT</span><h2>Not every destination needs a schedule.</h2><p>On the third morning, the plan was to leave before sunrise. Instead, rain arrived. We waited. Breakfast stretched into conversation, conversation stretched into an hour, and the hour became the best part of the day.</p><blockquote>“The itinerary tells you where to go. The weather tells you how to remember it.”</blockquote><span class="signature">— Field note, 07:42</span></div>
+    </section>
+
+    <section class="journal section-pad" id="journal">
+      <div class="section-kicker reveal"><span>03</span><span>THE JOURNAL</span></div>
+      <div class="journal-top"><div class="reveal"><h2>Small observations<br><em>from the road.</em></h2></div><div class="journal-controls reveal"><button class="filter active" data-filter="all">All notes</button><button class="filter" data-filter="food">Food</button><button class="filter" data-filter="culture">Culture</button><button class="filter" data-filter="nature">Nature</button></div></div>
+      <div class="notes-grid">
+        <article class="note reveal" data-category="culture"><span class="note-index">N—01</span><span class="note-category">CULTURE</span><h3>Streets remember.</h3><p>In Vigan, architecture wasn't an attraction separated from daily life. Tricycles, shops and families moved through the same streets that visitors came to photograph.</p><span class="note-time">DAY 01 / 17:20</span></article>
+        <article class="note note-dark reveal" data-category="food"><span class="note-index">N—02</span><span class="note-category">FOOD</span><h3>Breakfast is a place.</h3><p>A warm bowl shared at a roadside stop became an unofficial meeting point. Nobody checked the time until the cups were empty.</p><span class="note-time">DAY 02 / 08:11</span></article>
+        <article class="note reveal" data-category="nature"><span class="note-index">N—03</span><span class="note-category">NATURE</span><h3>Cloud level.</h3><p>At the viewpoint, the valley disappeared completely. For ten minutes there was nothing to photograph, so everyone finally put their phones away.</p><span class="note-time">DAY 03 / 06:48</span></article>
+        <article class="note reveal" data-category="culture"><span class="note-index">N—04</span><span class="note-category">CULTURE</span><h3>Craft takes time.</h3><p>Watching a local craft demonstration changed the way we thought about “handmade.” The finished object was quick; the knowledge behind it wasn't.</p><span class="note-time">DAY 04 / 14:06</span></article>
+        <article class="note note-image reveal" data-category="nature"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80" alt="Road through a green landscape" loading="lazy"><div><span class="note-category">NATURE / FRAME 19</span><h3>The road was the view.</h3></div></article>
+        <article class="note reveal" data-category="food"><span class="note-index">N—06</span><span class="note-category">FOOD</span><h3>One last coffee.</h3><p>By Baguio, every café felt familiar. We ordered the same thing, compared notes and started talking about going home.</p><span class="note-time">DAY 05 / 16:33</span></article>
+      </div>
+    </section>
+
+    <section class="gallery section-pad">
+      <div class="section-heading reveal"><div><span class="eyebrow">04 / VISUAL LOG</span><h2>Postcards from<br><em>the north.</em></h2></div><button class="gallery-open" id="openGallery">View full gallery ↗</button></div>
+      <div class="gallery-grid">
+        <button class="gallery-item wide reveal" data-src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1800&q=90" data-caption="Vigan / late afternoon"><img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1200&q=80" alt="Historic street" loading="lazy"><span>VIGAN / 17:20</span></button>
+        <button class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=90" data-caption="Sagada / first light"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80" alt="Mountain valley" loading="lazy"><span>SAGADA / 06:48</span></button>
+        <button class="gallery-item tall reveal" data-src="https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=90" data-caption="Banaue / ridge walk"><img src="https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=900&q=80" alt="Terraced mountains" loading="lazy"><span>BANAUE / 09:14</span></button>
+        <button class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1400&q=90" data-caption="Baguio / evening market"><img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=900&q=80" alt="Trees and city buildings" loading="lazy"><span>BAGUIO / 18:02</span></button>
+      </div>
+    </section>
+
+    <section class="cost section-pad" id="cost">
+      <div class="cost-header reveal"><span class="eyebrow">05 / THE NUMBERS</span><h2>Where the money<br><em>went.</em></h2><p>A fictional working budget for one traveler. Adjust the quantities and watch the total move.</p></div>
+      <div class="budget reveal">
+        <div class="budget-list">
+          <label><span>Transport</span><input type="number" data-cost="transport" value="4500" min="0"></label>
+          <label><span>Accommodation</span><input type="number" data-cost="stay" value="6000" min="0"></label>
+          <label><span>Food & coffee</span><input type="number" data-cost="food" value="3200" min="0"></label>
+          <label><span>Activities</span><input type="number" data-cost="activities" value="1800" min="0"></label>
+          <label><span>Emergency / misc.</span><input type="number" data-cost="misc" value="1500" min="0"></label>
+        </div>
+        <div class="budget-total"><span>ESTIMATED TOTAL</span><strong id="totalCost">₱17,000</strong><div class="budget-meta"><span>₱3,400 / day</span><span>5 days</span></div><div class="budget-bar"><i id="budgetBar"></i></div></div>
+      </div>
+    </section>
+
+    <section class="packing section-pad">
+      <div class="packing-copy reveal"><span class="eyebrow">06 / PRACTICAL NOTES</span><h2>Pack light.<br><em>Think ahead.</em></h2><p>A good trip report should include the unglamorous details too. Here's our final pre-departure check.</p></div>
+      <div class="checklist reveal" id="checklist">
+        <label><input type="checkbox"><span class="checkmark"></span><span>Light jacket / rain shell</span><small>ESSENTIAL</small></label>
+        <label><input type="checkbox"><span class="checkmark"></span><span>Power bank + charging cable</span><small>ESSENTIAL</small></label>
+        <label><input type="checkbox"><span class="checkmark"></span><span>Reusable water bottle</span><small>USEFUL</small></label>
+        <label><input type="checkbox"><span class="checkmark"></span><span>Printed emergency contacts</span><small>SMART</small></label>
+        <label><input type="checkbox"><span class="checkmark"></span><span>Small notebook</span><small>FOR NOTES</small></label>
+        <label><input type="checkbox"><span class="checkmark"></span><span>Comfortable walking shoes</span><small>ESSENTIAL</small></label>
+      </div>
+    </section>
+
+    <section class="closing section-pad">
+      <div class="closing-inner reveal"><span class="eyebrow">FINAL ENTRY / DAY 05</span><h2>We came back<br>with <em>more than photos.</em></h2><p>The route ends where it started: with a bag in the corner, tired shoes by the door and a collection of small moments that refuse to fit neatly into a schedule.</p><a class="button button-light" href="#top">Back to the beginning ↑</a></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div><span class="brand-mark">N</span><p>NORTHBOUND / FICTIONAL TRIP REPORT<br>Created for academic demonstration.</p></div><div class="footer-right"><span>OCTOBER 2026</span><span>© 2026 NORTHBOUND</span></div></footer>
+
+  <div class="modal" id="noteModal" aria-hidden="true"><div class="modal-backdrop"></div><div class="modal-card"><button class="modal-close" aria-label="Close">×</button><span class="eyebrow" id="modalTag">FIELD NOTE</span><h2 id="modalTitle">Vigan</h2><p id="modalText"></p><div class="modal-meta" id="modalMeta"></div></div></div>
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" aria-label="Close gallery">×</button><figure><img id="lightboxImage" src="" alt=""><figcaption id="lightboxCaption"></figcaption></figure></div>
+  <div class="toast" id="toast">Checklist updated</div>
+  <script src="script.js"></script>
+</body>
+</html>
