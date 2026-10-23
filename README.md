@@ -34,3 +34,8 @@ The website is intentionally static, so visitors do not need VS Code, Node.js, X
 ## Report sections
 
 The site presents the trip in two complementary formats: an editorial field journal and a traditional trip report with objectives, itinerary, observations, estimated expenses, and recommendations. The report content and budget can be edited directly in `index.html`.
+
+
+## Field trip report learning guide
+
+The website also includes a guide aligned with the field trip report reference: a definition, the five main report components, key observation prompts (people, places, activities, significance, and personal reflection), key takeaways, benefits of report writing, and a short example. The existing Northbound travel journal and full traditional report remain available as they were.
