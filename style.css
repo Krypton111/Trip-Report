@@ -57,3 +57,11 @@
 .essay-endnote a{color:var(--ink);font:10px var(--mono);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:5px}
 @media(max-width:900px){.essay-layout{grid-template-columns:1fr}.essay-sidebar{position:relative;top:auto}.essay-toc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:18px}.essay-heading{margin-top:55px}}
 @media(max-width:600px){.essay-heading h2{font-size:clamp(42px,12vw,62px)}.essay-paper{padding:24px 20px}.essay-chapter{grid-template-columns:28px minmax(0,1fr);gap:12px;padding:30px 0}.essay-chapter-number{width:27px;height:27px}.essay-chapter p{font-size:13px;line-height:1.9}.essay-toc{grid-template-columns:1fr}.essay-endnote{align-items:flex-start;flex-direction:column}}
+
+
+/* Continuous essay presentation: no report-details panel or section title blocks */
+.essay-continuous{max-width:860px;margin:0 auto;padding:clamp(28px,6vw,78px)}
+.essay-continuous p{font:400 15px/2.05 var(--sans);color:#535f57;margin:0 0 1.45em}
+.essay-continuous p:first-child::first-letter{float:left;font:600 4.1em/.82 var(--serif);padding:.08em .12em 0 0;color:var(--accent)}
+.essay-continuous .essay-endnote{margin-top:35px;border-top:1px solid var(--line)}
+@media(max-width:600px){.essay-continuous{padding:28px 22px}.essay-continuous p{font-size:14px;line-height:1.95}}
