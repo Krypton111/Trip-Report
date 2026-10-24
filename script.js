@@ -5,6 +5,14 @@ const menu=$('.menu-btn'),nav=$('.nav');
 menu?.addEventListener('click',()=>nav.classList.toggle('open'));
 $$('.nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
 
+// Back to the beginning smooth scroll
+const backToTop=$('.closing-inner a[href="#top"]');
+backToTop?.addEventListener('click',event=>{
+ event.preventDefault();
+ window.scrollTo({top:0,behavior:'smooth'});
+ history.replaceState(null,'',window.location.pathname+window.location.search+'#top');
+});
+
 // Scroll reveal
 const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}})},{threshold:.12});
 $$('.reveal').forEach(el=>observer.observe(el));
