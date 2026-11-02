@@ -33,7 +33,7 @@ The website is intentionally static, so visitors do not need VS Code, Node.js, X
 
 ## Report sections
 
-The site presents the trip in two complementary formats: an editorial field journal and a traditional trip report with objectives, itinerary, observations, estimated expenses, and recommendations. The report content and budget can be edited directly in `index.html`.
+The website is organized around four clearly identified parts of a trip report:\n\n1. **Before the trip** — purpose, objectives, preparation, itinerary, arrangements and budget.\n2. **During the trip** — destinations, daily activities, observations, experiences and field notes.\n3. **After the trip** — photographs, organized journal entries, expense review and reflection.\n4. **Suggestions and conclusion** — practical recommendations for future trips and the overall findings.\n\nA four-card report guide appears near the beginning of the website, and the main navigation links directly to each part. The editorial journal, traditional report, gallery, budget calculator and packing checklist support these four sections. The report content and budget can be edited directly in `index.html`.
 
 
 ## Field trip report learning guide
