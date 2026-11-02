@@ -50,4 +50,9 @@ $('.lightbox-close').addEventListener('click',closeLightbox);lightbox.addEventLi
 window.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModal();closeLightbox()}});
 
 // Active navigation based on scroll position
-const sections=$$('main section[id]');const navLinks=$$('.nav a');window.addEventListener('scroll',()=>{let current='';sections.forEach(section=>{if(scrollY>=section.offsetTop-180)current=section.id});navLinks.forEach(link=>link.classList.toggle('current',link.getAttribute('href')===`#${current}`))},{passive:true});
+const navLinks=$('.nav a');
+const navTargets=navLinks.map(link=>({link,target:$(link.getAttribute('href'))})).filter(item=>item.target);
+function updateActiveNav(){let current=null;navTargets.forEach(item=>{if(scrollY>=item.target.getBoundingClientRect().top+scrollY-190)current=item.link});navLinks.forEach(link=>link.classList.toggle('current',link===current))}
+window.addEventListener('scroll',updateActiveNav,{passive:true});
+window.addEventListener('load',updateActiveNav);
+updateActiveNav();
